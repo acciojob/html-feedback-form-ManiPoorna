@@ -3,10 +3,29 @@
 <html>
 
 <head>
+	<title>Feedbak Form</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+	<form method="post">
+		<div>
+			<lable for="name">Name :</lable>
+			<input type="text" id="name" minlength=3 maxlength=50 required>
+		</div>
+		<div>
+			<lable for="portfolio">Portfolio :</lable>
+			<input type="text" id="portfolio" required>
+		</div>
+		<div>
+			<lable for="favColor">Favourite Color:</lable>
+			<input type="text" id="favColor" >
+		</div>
+		<div>
+			<lable for="likeness">Likeness</lable>
+			<input type="range" id="likeness">
+		</div>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
