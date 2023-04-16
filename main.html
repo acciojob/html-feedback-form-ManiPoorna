@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<h1 align="center">HTML Feedback Form</h1>
+	<h1 align="center">Feedback Form</h1>
 	<form method="post">
 		<div>
 			<lable for="name">Name :</lable>
@@ -16,21 +16,15 @@
 		</div><br>
 		<div>
 			<lable for="portfolio">Portfolio :</lable>
-			<input type="text" id="portfolio" required>
+			<input type="url" id="portfolio" required>
 		</div><br>
 		<div>
 			<lable for="favColor">Favourite Color:</lable>
-			<select id="favColor">
-				<option disabled selected>Select a colour</option>
-				<option>White</option>
-				<option>Red</option>
-				<option>Blue</option>
-				<option>Pink</option>
-			</select>
+			<input type="color" id="favColor">
 		</div>
 		<div>
 			<lable for="likeness">Likeness :</lable>
-			<input type="range" min="0" max="100" id="likeness">
+			<input type="range" min="1" max="100" id="likeness">
 		</div><br>
 		<button type="submit">Submit</button>
 	</form>
