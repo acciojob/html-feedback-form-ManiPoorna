@@ -8,13 +8,14 @@
 </head>
 
 <body>
-	<a href="#portfolio">
-		<h3>Portfolio</h3>
-	</a>
 	<form method="post">
 		<div>
 			<lable for="name">Name :</lable>
 			<input type="text" id="name" minlength=3 maxlength=50 required>
+		</div><br>
+		<div>
+			<lable for="portfolio">Portfolio :</lable>
+			<input type="text" id="portfolio" required>
 		</div><br>
 		<div>
 			<lable for="favColor">Favourite Color:</lable>
@@ -28,8 +29,8 @@
 		<div>
 			<lable for="likeness">Likeness :</lable>
 			<input type="range" id="likeness">
-		</div>
-		
+		</div><br>
+		<button type="submit">Submit</button>
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
